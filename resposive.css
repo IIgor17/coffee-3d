@@ -1,0 +1,114 @@
+@media screen and (max-width:4000px){
+    .info__heading {
+        font-size: 100px;
+    }
+
+    .info__slogan {
+        font-size: 25px;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    .info__heading {
+        font-size: 80px;
+    }
+    .info__slogan {
+        font-size: 18px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .info__heading {
+        font-size: 70px;
+    }
+    .menu {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .info__heading {
+        font-size: 60px;
+    }
+    .info__slogan {
+        font-size: 15px;
+    }
+
+    .info {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .info__heading {
+        font-size: 55px;
+    }
+    .info__slogan {
+        font-size: 14px;
+    }
+    .menu {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .plate, .sticks, .bg-1, .bg-2, .bg-3 {
+        display: none;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+    .menu {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .nav {
+        font-size: 17px;
+    }
+
+    .illustration {
+        position: absolute;
+        left: auto;
+        right: auto;
+        width: 100%;
+    }
+    .coffee {
+        width: 100%;
+        z-index: -1;
+        opacity: .8;
+    }
+    .info {
+        width: 100%;
+    }
+
+    .info__heading {
+        font-size: 40px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info__heading {
+        width: 65%;
+        font-size: 35px;
+    }
+    .info__slogan {
+        font-size: 13px;
+    }
+
+    .y-line {
+        margin: 0 10px;
+        width: 20px;
+    }
+    .nav {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .info__heading {
+        font-size: 30px;
+    }
+}
